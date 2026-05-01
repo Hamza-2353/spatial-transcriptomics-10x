@@ -1,0 +1,26 @@
+# Data files (too large for GitHub)
+data/
+Xenium/
+Xenium.zarr/
+*.h5
+*.h5ad
+*.zarr
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.venv
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Figures (optional — comment out if you want to commit figures)
+# figures/
