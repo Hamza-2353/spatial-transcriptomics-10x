@@ -1,4 +1,4 @@
-# :dna: 10x Genomics Spatial Transcriptomics — Assignment
+# 🧬 10x Genomics Spatial Transcriptomics — Assignment
 
 A comprehensive analysis of spatial transcriptomics data using **Scanpy** and **Squidpy**.
 
@@ -19,19 +19,19 @@ A comprehensive analysis of spatial transcriptomics data using **Scanpy** and **
 > Dataset: Visium Human Lymph Node
 
 ### QC Distributions
-![QC Distributions](results/01_scanpy_basic_spatial_figures/01_qc_distributions.png)
+<img src="results/01_scanpy_basic_spatial_figures/01_qc_distributions.png" width="400"/>
 
 ### UMAP Clusters
-![UMAP Clusters](results/01_scanpy_basic_spatial_figures/02_umap_clusters.png)
+<img src="results/01_scanpy_basic_spatial_figures/02_umap_clusters.png" width="300"/>
 
 ### Spatial QC on Tissue
-![Spatial QC](results/01_scanpy_basic_spatial_figures/03_spatial_qc.png)
+<img src="results/01_scanpy_basic_spatial_figures/03_spatial_qc.png" width="300"/>
 
 ### Spatial Clusters on H&E Image
-![Spatial Clusters](results/01_scanpy_basic_spatial_figures/04_spatial_clusters.png)
+<img src="results/01_scanpy_basic_spatial_figures/04_spatial_clusters.png" width="300"/>
 
 ### Marker Genes
-![Marker Genes](results/01_scanpy_basic_spatial_figures/05_marker_genes.png)
+<img src="results/01_scanpy_basic_spatial_figures/05_marker_genes.png" width="300"/>
 
 ---
 
@@ -39,13 +39,13 @@ A comprehensive analysis of spatial transcriptomics data using **Scanpy** and **
 > Dataset: Visium Mouse Brain (DAPI, anti-NEUN, anti-GFAP)
 
 ### Spatial Clusters
-![Spatial Clusters](results/02_squidpy_visium_fluo_figures/01_spatial_clusters.png)
+<img src="results/02_squidpy_visium_fluo_figures/01_spatial_clusters.png" width="300"/>
 
 ### Cell Segmentation
-![Segmentation](results/02_squidpy_visium_fluo_figures/02_segmentation.png)
+<img src="results/02_squidpy_visium_fluo_figures/02_segmentation.png" width="400"/>
 
 ### Image Feature Clusters
-![Image Clusters](results/02_squidpy_visium_fluo_figures/03_image_clusters.png)
+<img src="results/02_squidpy_visium_fluo_figures/03_image_clusters.png" width="400"/>
 
 ---
 
@@ -53,20 +53,22 @@ A comprehensive analysis of spatial transcriptomics data using **Scanpy** and **
 > Dataset: Visium Mouse Brain (H&E stained)
 
 ### Spatial Clusters
-![Spatial Clusters](results/03_squidpy_visium_hne_figures/01_spatial_clusters.png)
+<img src="results/03_squidpy_visium_hne_figures/01_spatial_clusters.png" width="300"/>
 
 ### Neighborhood Enrichment
-![Neighborhood Enrichment](results/03_squidpy_visium_hne_figures/02_nhood_enrichment.png)
+<img src="results/03_squidpy_visium_hne_figures/02_nhood_enrichment.png" width="300"/>
 
 ### Co-occurrence Score
-![Co-occurrence](results/03_squidpy_visium_hne_figures/03_co_occurrence.png)
+<img src="results/03_squidpy_visium_hne_figures/03_co_occurrence.png" width="400"/>
 
 ### Ligand-Receptor Interactions
-![Ligand Receptor](results/03_squidpy_visium_hne_figures/04_ligrec.png)
+<img src="results/03_squidpy_visium_hne_figures/04_ligrec.png" width="300"/>
 
 ---
 
 ## 🗂️ Repository Structure
+
+```
 spatial-transcriptomics-10x/
 ├── README.md
 ├── environment/
@@ -78,11 +80,10 @@ spatial-transcriptomics-10x/
 │   ├── 03_squidpy_visium_hne.ipynb
 │   └── 04_squidpy_xenium.ipynb
 └── results/
-├── 01_scanpy_basic_spatial_figures/
-├── 02_squidpy_visium_fluo_figures/
-└── 03_squidpy_visium_hne_figures/
-
----
+    ├── 01_scanpy_basic_spatial_figures/
+    ├── 02_squidpy_visium_fluo_figures/
+    └── 03_squidpy_visium_hne_figures/
+```
 
 ## 🚀 Setup
 
