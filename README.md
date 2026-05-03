@@ -1,4 +1,4 @@
-# 🧬 10x Genomics Spatial Transcriptomics — Assignment
+# 🧬 10x Genomics Spatial Transcriptomics 
 
 A comprehensive analysis of spatial transcriptomics data using **Scanpy** and **Squidpy**.
 
